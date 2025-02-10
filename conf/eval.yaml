@@ -1,0 +1,10 @@
+test_ds:
+  dir: ""
+  batch_size: 1
+
+results:
+  dir: ""
+  filename: ""
+
+checkpoint:
+  path: ""

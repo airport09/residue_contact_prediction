@@ -1,0 +1,24 @@
+model:
+  num_layers: 8
+  num_heads: 8
+  use_bias: false
+  local_db_name: ""
+  pdb_files_dir: ""
+  learning_rate: 0.001
+  warmup_steps: null 
+
+train_ds:
+  dir: ""
+  batch_size: 2
+
+trainer: 
+  checkpoints_dir: ""
+  checkpoint_path: ""
+  max_epochs: 50
+  accumulate_grad_batches: 2
+  limit_train_batches: 500
+  log_every_n_steps: 10
+  check_val_every_n_epoch: 1
+
+wandb_logger:
+  project: ""
